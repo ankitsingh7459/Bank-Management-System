@@ -4,7 +4,7 @@ A Java-based Bank Management System that simulates basic banking operations such
 
 This system automates simple banking processes and provides a structured way to manage customer accounts and transactions digitally.
 
-🚀 Features
+--🚀 Features
 
 Create a new bank account
 
@@ -18,7 +18,7 @@ Manage customer account information
 
 Store and retrieve data using a database
 
-🛠️ Technologies Used
+--🛠️ Technologies Used
 
 Java – Core programming language
 
@@ -28,7 +28,7 @@ MySQL – Database for storing account details and transactions
 
 Object-Oriented Programming (OOP) – Used for modular and structured design
 
-📂 Project Structure
+--📂 Project Structure
 Bank-Management-System
 │
 ├── src
@@ -41,10 +41,10 @@ Bank-Management-System
 │   └── bank.sql
 │
 └── README.md
-▶️ How to Run the Project
-1️⃣ Clone the Repository
+--▶️ How to Run the Project
+--1️⃣ Clone the Repository
 git clone https://github.com/ashuuu14/Bank-Management-System-.git
-2️⃣ Open the Project
+--2️⃣ Open the Project
 
 Open the project in any Java IDE:
 
@@ -54,7 +54,7 @@ Eclipse
 
 VS Code
 
-3️⃣ Setup MySQL Database
+--3️⃣ Setup MySQL Database
 
 Install MySQL Server
 
@@ -65,14 +65,14 @@ Create the required tables or import the SQL file if available
 Example:
 
 CREATE DATABASE bankdb;
-4️⃣ Configure Database Connection
+--4️⃣ Configure Database Connection
 
 Update the database credentials in the Java file:
 
 String url = "jdbc:mysql://localhost:3306/bankdb";
 String username = "root";
 String password = "yourpassword";
-5️⃣ Compile and Run
+--5️⃣ Compile and Run
 
 Compile the Java files and run the main program.
 
@@ -80,7 +80,7 @@ Example:
 
 javac Main.java
 java Main
-📚 Learning Outcomes
+--📚 Learning Outcomes
 
 This project helps in understanding:
 
