@@ -1,34 +1,34 @@
-🏦 Bank Management System
+# 🏦 Bank Management System
 
 A Java-based Bank Management System that simulates basic banking operations such as account creation, deposits, withdrawals, and balance inquiry. The project demonstrates the use of Object-Oriented Programming (OOP) concepts and database connectivity using JDBC and MySQL to manage banking data efficiently.
 
 This system automates simple banking processes and provides a structured way to manage customer accounts and transactions digitally.
 
---🚀 Features
+---
 
-Create a new bank account
+## 🚀 Features
 
-Deposit money into an account
+* Create a new bank account
+* Deposit money into an account
+* Withdraw money from an account
+* Check account balance
+* Manage customer account information
+* Store and retrieve account data using a MySQL database
 
-Withdraw money from an account
+---
 
-Check account balance
+## 🛠️ Technologies Used
 
-Manage customer account information
+* **Java** – Core programming language
+* **JDBC (Java Database Connectivity)** – Used for connecting Java with the database
+* **MySQL** – Database for storing account and transaction details
+* **OOP Concepts** – Encapsulation, modular design, and structured programming
 
-Store and retrieve data using a database
+---
 
---🛠️ Technologies Used
+## 📂 Project Structure
 
-Java – Core programming language
-
-JDBC (Java Database Connectivity) – Connects Java application with MySQL database
-
-MySQL – Database for storing account details and transactions
-
-Object-Oriented Programming (OOP) – Used for modular and structured design
-
---📂 Project Structure
+```
 Bank-Management-System
 │
 ├── src
@@ -41,55 +41,78 @@ Bank-Management-System
 │   └── bank.sql
 │
 └── README.md
---▶️ How to Run the Project
---1️⃣ Clone the Repository
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the Repository
+
+```
 git clone https://github.com/ashuuu14/Bank-Management-System-.git
---2️⃣ Open the Project
+```
 
-Open the project in any Java IDE:
+### 2. Open the Project
 
-IntelliJ IDEA
+Open the project using any Java IDE such as:
 
-Eclipse
+* IntelliJ IDEA
+* Eclipse
+* VS Code
 
-VS Code
+### 3. Setup MySQL Database
 
---3️⃣ Setup MySQL Database
-
-Install MySQL Server
-
-Create a new database (for example bankdb)
-
-Create the required tables or import the SQL file if available
+1. Install MySQL Server
+2. Create a database (example: `bankdb`)
+3. Create required tables or import the provided SQL file
 
 Example:
 
+```
 CREATE DATABASE bankdb;
---4️⃣ Configure Database Connection
+```
 
-Update the database credentials in the Java file:
+### 4. Configure Database Connection
 
+Update database credentials in the Java code:
+
+```
 String url = "jdbc:mysql://localhost:3306/bankdb";
 String username = "root";
 String password = "yourpassword";
---5️⃣ Compile and Run
+```
 
-Compile the Java files and run the main program.
+### 5. Run the Program
 
-Example:
+Compile and run the main Java file.
 
+```
 javac Main.java
 java Main
---📚 Learning Outcomes
+```
 
-This project helps in understanding:
+---
 
-Java Object-Oriented Programming
+## 📚 Learning Outcomes
 
-JDBC database connectivity
+* Understanding Java Object-Oriented Programming
+* Implementing JDBC database connectivity
+* Performing CRUD operations with MySQL
+* Designing simple banking transaction systems
 
-MySQL database operations
+---
 
-Basic banking transaction logic
+## 🔮 Future Improvements
 
-Software design for real-world applications
+* Add Graphical User Interface (GUI) using Java Swing or JavaFX
+* Implement authentication and user login system
+* Add transaction history feature
+* Improve security and error handling
+
+---
+
+## 👨‍💻 Author
+
+**Ankit Singh**
+B.Tech CSE (AI & ML)
